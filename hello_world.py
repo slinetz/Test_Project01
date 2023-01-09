@@ -16,5 +16,5 @@ if __name__ == "__main__":
     result = mathmatic_question(list_a, k)
     print(result)
 
-    #assert mathmatic_question(list_a, bin(1111111111111111111))
+    assert mathmatic_question(list_a, 0b1111111111111111111)
     #assert mathmatic_question(["st"], 3), "the list should not contain string"
