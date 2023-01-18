@@ -1,6 +1,6 @@
 #Given an array of integers, return indices of the two numbers such that they add up to a specific target
 #Input: [1,3,9,5,6,4], k = 8
-#Output: 1, 3
+#Output: 1, 3.
 def mathmatic_question(a:list, b:int) -> tuple: 
     a.sort()
     sum = 0
